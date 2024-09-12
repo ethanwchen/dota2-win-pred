@@ -14,7 +14,7 @@ $$MSE = \frac{1}{N}\sum^{N}_{i=1}(fi-yi)^2$$
 
 - where N is the number of data points, fi is the value returned by the model, and yi is the actual value for data point i.
 
-Random Forest uses the mean squared error to calculate the distance of each node from the predicted actual value. This helps decide which branch is the better decision for our forest. We are using the Gini index to decide how our nodes on the decision tree branch. This can be written out as 
+Random Forest uses the mean squared error to calculate the distance of each node from the predicted actual value. This helps decide which branch is the better decision for our forest. We are using the Gini index to decide how our nodes on the decision tree branch. This can be written out as: 
 
 $$\text{Gini} = 1-\sum^{C}_{i=1}(p_{i})^2$$
 
