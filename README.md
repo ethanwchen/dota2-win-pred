@@ -16,7 +16,7 @@ $$MSE = \frac{1}{N}\sum^{N}_{i=1}(fi-yi)^2$$
 
 Random Forest uses the mean squared error to calculate the distance of each node from the predicted actual value. This helps decide which branch is the better decision for our forest. We are using the Gini index to decide how our nodes on the decision tree branch. This can be written out as: 
 
-$$\text{Gini} = 1-\sum^{C}_{i=1}(p_{i})^2$$
+$\text{Gini} = 1-\sum^{C}_{i=1}(p_{i})^2$
 
 Using class and probability, we can determine the Gini of each branch on a node. This index calculates the purity of groups of data created by a split point. 0 would be perfect purity where class values are perfectly separated into two groups. To find the best split point value, we must evaluate the cost of each value in the training dataset for each input variable. $p_{i}$ here represents the relative frequency of the class we are observing in the dataset and $c$ represents the number of classes.
 
