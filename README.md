@@ -1,8 +1,10 @@
-### DotA 2 Win Prediction Model
+## DotA 2 Win Prediction Model
 
 This is a work in progress and my first attempt at top 100 on a major Kaggle leaderboard.
 
-#### Model 1:
+### Basic RF Modeling
+
+#### Random Forest
 
 Knowing the radiant win/loss outcomes and having a binary classification problem at hand, we use a supervised leraning model like Random Forest as our rudimentary model. This is good for tabular data with numerical features or categorical features with fewer than hundreds of categories. This is where we are able to capture non-linear interaction between the features and targets. Tree based models are also very good with higher feature counts.
 
@@ -30,6 +32,6 @@ RF has many tuning parameters.
 - min_child_rate is the minimum observations required at a leaf node. Larger values have simpler trees
 - min_loss_reduction is a pruning criteria for constructing the tree. This restricts reduction of loss function meaning that a larger value produes a simpler tree
 
+### Exploratory Data Analysis
 
-
-Random Forest
+Looking further at the different features given by the existing data, let's look at what information we can pull on how these features correlate with our target.
