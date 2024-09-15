@@ -35,3 +35,11 @@ RF has many tuning parameters.
 ### Exploratory Data Analysis
 
 Looking further at the different features given by the existing data, let's look at what information we can pull on how these features correlate with our target.
+
+### Data Cleaning and Feature Engineering
+
+### XGBoost
+
+### Stochastic Gradient Descent
+
+### Ensembling
