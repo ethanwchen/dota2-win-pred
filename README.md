@@ -38,6 +38,8 @@ Looking further at the different features given by the existing data, let's look
 
 ### Data Cleaning and Feature Engineering
 
+For cleaning,
+
 ### XGBoost
 
 ### Stochastic Gradient Descent
