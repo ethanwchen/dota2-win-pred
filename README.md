@@ -36,6 +36,8 @@ RF has many tuning parameters.
 
 Looking further at the different features given by the existing data, let's look at what information we can pull on how these features correlate with our target.
 
+We can manipulate by making team-based statistics.
+
 ### Data Cleaning and Feature Engineering
 
 For cleaning,
