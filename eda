@@ -1,0 +1,4 @@
+plt.hist(train['game_time'], bins=40, label='Train');
+plt.hist(test['game_time'], bins=40, label='Test');
+plt.title('Distribution of game time');
+plt.legend();
